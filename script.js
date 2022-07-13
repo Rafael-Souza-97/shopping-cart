@@ -32,6 +32,7 @@ const getSkuFromProductItem = (item) => item.querySelector('span.item__sku').inn
 
 const cartItemClickListener = (event) => {
   cartItems.removeChild(event.target);
+  saveCartItems(cartItems.innerHTML);
 };
 
 const emptyCartClickListener = () => {
@@ -53,6 +54,7 @@ const skuToCart = async (button) => {
   const product = await fetchItem(sku);
   const data = { sku: product.id, name: product.title, salePrice: product.price };
   cartItems.appendChild(createCartItemElement(data));
+  saveCartItems(cartItems.innerHTML);
 };
 
 const addCartBtn = () => {
@@ -77,4 +79,20 @@ const reqApi = async () => {
   emptyCartClickListener();
 };
 
-window.onload = () => { reqApi(); };
+const getItemsLocalStorage = () => {
+  const get = getSavedCartItems();
+  cartItems.innerHTML = get;
+};
+
+const getAllEvents = () => {
+  const liCartItem = document.querySelectorAll('.cart__item');
+  liCartItem.forEach((element) => {
+    element.addEventListener('click', cartItemClickListener);
+  });
+};
+
+window.onload = () => {
+  reqApi();
+  getItemsLocalStorage();
+  getAllEvents();
+};

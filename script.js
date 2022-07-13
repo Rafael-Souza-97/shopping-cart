@@ -91,8 +91,23 @@ const getAllEvents = () => {
   });
 };
 
+const loading = () => {
+  const loadingText = document.createElement('h3');
+  loadingText.innerText = 'carregando...';
+  loadingText.classList = 'loading';
+  const body = document.querySelector('body');
+  body.appendChild(loadingText);
+  items.style.display = 'none';
+  setTimeout(async () => {
+    items.style.display = 'flex';
+    loadingText.style.display = 'flex';
+    await reqApi();
+    body.removeChild(loadingText);
+    getItemsLocalStorage();
+    getAllEvents();
+  });
+};
+
 window.onload = () => {
-  reqApi();
-  getItemsLocalStorage();
-  getAllEvents();
+loading();
 };

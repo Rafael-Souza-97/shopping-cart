@@ -27,4 +27,4 @@ os conhecimentos básicos sobre assincronismo e interface de e-commerce.
 - CSS3
 - Jest
 - Zoom
-- Slack
+- Slack,

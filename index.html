@@ -16,24 +16,54 @@
     <script src="./helpers/getSavedCartItems.js" defer></script>
     <script src="script.js" defer></script>
   </head>
+
   <body>
     <header class="header">
       <div class="container-title">
-        <span class="title"><strong>trybe</strong>shopping</span>
+        <span class="title"><strong>Trybe</strong>shopping</span>
       </div>
-      <i class="material-icons" style="font-size:45px;color:white">shopping_cart</i>
-      <div class="container-cartTitle">
-        <span class="cart__title">Meu carrinho</span>
-      </div>
+
+      <div class="inputSearch-div">
+        <div class="container-searchbtn">
+              <div class="form">
+                <input type="text" class="input-product" placeholder="Buscar produtos, marcas e muito mais...">
+                <button type="submit" class="buttonPesquisar">Pesquisar</button>
+              </div>
+          </div>
+        </div>
+
+      <section class="cartIcon-section">
+      <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+      <lord-icon
+        src="https://cdn.lordicon.com/slkvcfos.json"
+          trigger="hover"
+          colors="primary:#ffffff,secondary:#00e6cf"
+          stroke="70"
+          style="width:80px;height:80px"
+          class='cart-icon'>
+      </lord-icon>
+      <h4 class="cart-length"></h4>
+      </section>
     </header>
+
     <section class="container">
-      <section class="items"></section>
+      <section class="items zoom"></section>
       <section class="cart">
-        <ol class="cart__items"></ol>
-        <p class="total-price"></p>
+        <div class="container-cartTitle">
+          <span class="cart__title">Meu carrinho</span>
+        </div>
+        <div>
+          <ol class="cart__items"></ol>
+          <p class="total-price"></p>
+        </div>
+       <section class="buy">
         <button class="empty-cart">Esvaziar carrinho</button>
+        <button class="buy-cart">Finzalizar Pedido</button>
+       </section>
+
       </section>
     </section>
+    <div class="loader"></div>
   </body>
 </html>
 <!-- PR -->

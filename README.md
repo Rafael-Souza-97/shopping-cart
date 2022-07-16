@@ -16,7 +16,7 @@ os conhecimentos básicos sobre assincronismo e interface de e-commerce.
  - [API Mercado Livre](https://developers.mercadolivre.com.br/pt_br/itens-e-buscas)
  
 
-## Tecnologias utilizadas 
+## Tecnologias / Ferramentas utilizadas:
 
 - API
 - Git e GitHub
@@ -27,4 +27,4 @@ os conhecimentos básicos sobre assincronismo e interface de e-commerce.
 - CSS3
 - Jest
 - Zoom
-- Slack,
+- Slack

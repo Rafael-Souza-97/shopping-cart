@@ -18,15 +18,15 @@ os conhecimentos básicos sobre assincronismo e interface de e-commerce.
 
 ## Tecnologias / Ferramentas utilizadas:
 
-- API
-- Git e GitHub
-- VsCode
-- Linux - Ubuntu
 - JavaScript
 - HTML5
 - CSS3
 - Jest
+- API
+- VsCode
 - Zoom
 - Slack
+- Git e GitHub
+- Linux - Ubuntu
 
 https://user-images.githubusercontent.com/99055008/179379578-3f833301-7529-4711-8314-80d29f4e81d4.mp4

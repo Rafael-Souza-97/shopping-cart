@@ -23,9 +23,9 @@ os conhecimentos básicos sobre assincronismo e interface de e-commerce.
 - CSS3
 - Jest
 - API
-- VsCode
 - Zoom
 - Slack
+- VsCode
 - Git e GitHub
 - Linux - Ubuntu
 

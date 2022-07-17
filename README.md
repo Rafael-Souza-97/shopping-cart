@@ -28,3 +28,5 @@ os conhecimentos básicos sobre assincronismo e interface de e-commerce.
 - Jest
 - Zoom
 - Slack
+
+https://user-images.githubusercontent.com/99055008/179379578-3f833301-7529-4711-8314-80d29f4e81d4.mp4

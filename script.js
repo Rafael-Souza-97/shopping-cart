@@ -154,9 +154,9 @@ const cartDisplayNone = () => {
 }
 
 const searchBar = () => {
-  reqApi('iphone');
+  reqApi('eletronicos');
   searchButton.addEventListener('click', async () => {
-    if(inputSearch.value === '') reqApi('computador');
+    if(inputSearch.value === '') reqApi('eletronicos');
     if(inputSearch.value.toLowerCase() === 'taça do mundial do palmeiras') window.alert('ERRO 404 - O Palmeiras não tem Mundial');
     items.innerHTML = '';
     reqApi(inputSearch.value);

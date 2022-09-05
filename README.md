@@ -1,11 +1,11 @@
-# Carrinho de Compras
+# Shopping Cart (Carrinho de Compras)
 
 Projeto utilizando a API grátis do mercado livre.
 Esse projeto foi feito enquanto aluno da [Trybe](https://www.betrybe.com/) para reforçar 
 os conhecimentos básicos sobre assincronismo e interface de e-commerce.
 
 
-## Autores
+## Autor
 
 - [@Rafael-Souza-97](https://github.com/Rafael-Souza-97)
 

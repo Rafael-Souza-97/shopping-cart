@@ -7,7 +7,7 @@ os conhecimentos básicos sobre assincronismo e interface de e-commerce.
 
 ## Autor
 
-- [@Rafael-Souza-97](https://github.com/Rafael-Souza-97)
+- [Rafael Souza](https://github.com/Rafael-Souza-97)
 
 
 ## Referência
@@ -21,13 +21,16 @@ os conhecimentos básicos sobre assincronismo e interface de e-commerce.
 - JavaScript
 - HTML5
 - CSS3
-- Jest
-- API
+- [API](https://developers.mercadolivre.com.br/pt_br/itens-e-buscas)
 - Zoom
 - Slack
 - VsCode
 - Git e GitHub
 - Linux - Ubuntu
+
+### Testes
+
+- Jest
 
 <br>
 

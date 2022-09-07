@@ -20,6 +20,7 @@ A aplicação visa simular uma loja online dinâmica, onde o usuário pode utili
 - [JavaScript](https://www.javascript.com/)
 - [HTML 5](https://html.com/)
 - [CSS 3](https://www.w3.org/Style/CSS/Overview.en.html)
+- [Bootstrap](https://getbootstrap.com/)
 - [API](https://developers.mercadolivre.com.br/pt_br/itens-e-buscas)
 - [Zoom](https://zoom.us/)
 - [Slack](https://slack.com/intl/pt-br/)

@@ -17,8 +17,8 @@ A aplicação visa simular uma loja online dinâmica, onde o usuário pode utili
 
 ## Tecnologias / Ferramentas utilizadas:
 
-- [Javascript](https://www.javascript.com/)
-- [HTML5](https://html.com/)
+- [JavaScript](https://www.javascript.com/)
+- [HTML 5](https://html.com/)
 - [CSS 3](https://www.w3.org/Style/CSS/Overview.en.html)
 - [API](https://developers.mercadolivre.com.br/pt_br/itens-e-buscas)
 - [Zoom](https://zoom.us/)

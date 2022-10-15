@@ -32,7 +32,8 @@ A aplicação visa simular uma loja online dinâmica, onde o usuário pode utili
 
 - [Jest](https://jestjs.io/pt-BR/)
 
-## Site 
+## Site / Deploy
+
 - https://shopping-cart-roan-one.vercel.app/
 
 ## Preview

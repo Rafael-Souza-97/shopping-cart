@@ -32,6 +32,11 @@ A aplicação visa simular uma loja online dinâmica, onde o usuário pode utili
 
 - [Jest](https://jestjs.io/pt-BR/)
 
+
+## Infos Adicionais
+
+- ###### Percentual de cumprimento de requisitos ([Trybe](https://www.betrybe.com/))- 100%
+
 ## Site / Deploy
 
 - https://shopping-cart-roan-one.vercel.app/

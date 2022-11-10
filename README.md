@@ -6,6 +6,55 @@ os conhecimentos básicos sobre assincronismo e interface de e-commerce.
 
 A aplicação visa simular uma loja online dinâmica, onde o usuário pode utilizar o campo de pesquisa para fazer consulta de produtos/marcas e preços, além de adiciona-los no carrinho de compras e fazer interações.
 
+<br>
+
+<details>
+  <summary><strong>Como instalar o Projeto Shopping Cart</strong></summary><br />
+
+## Instalação 
+
+<br>
+
+- Clone o repositório `git@github.com:Rafael-Souza-97/shopping-cart.git`:
+
+```bash
+git clone git@github.com:Rafael-Souza-97/shopping-cart.git
+```
+
+<br>
+
+- Entre na pasta do repositório que você acabou de clonar:
+
+```bash
+cd shopping-cart
+```
+
+<br>
+
+ - Instale as depëndencias, caso necessário, com `npm install`:
+
+```bash
+npm install
+```
+
+<hr>
+
+### Scripts
+
+ - Execute a aplicação com  com `npm start`:
+  > Executará a aplicação em modo de desenvolvimento.
+ 
+```bash
+npm start
+```
+
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualiza-lo.
+
+<hr>
+<br>
+
+</details>
+
 ## Autor
 
 - [Rafael Souza](https://github.com/Rafael-Souza-97)
